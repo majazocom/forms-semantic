@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS/SEMANTIC</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="header--themedark">SITENAME</h1>
+    </header>
+    <main>
+        <h2>LOGIN FORM</h2>
+        <form class="form">
+            <section class="field">
+                <label class="field__label" for="username">Username:</label>
+                <input class="field__input" type="text" id="username" placeholder="yymmdd-xxxx">
+            </section>
+            <!-- .form > .field__label { background-color: #ffffff; } -->
+            <section class="field">
+                <label class="field__label" for="password">Password:</label>
+                <input class="field__input--password" type="password" id="password">
+            </section>
+            <label for="lunchmenu">Lunch:</label>
+            <select id="lunchmenu">
+                <option disabled selected id="default">-- Välj dagens --</option>
+                <option id="salad">Salad</option>
+                <option id="pasta">Pasta</option>
+                <option id="nuggets">Nuggies</option>
+                <option id="burger">Burger</option>
+            </select>
+            <input type="checkbox">
+            <input type="button" value="SUBMIT">
+        </form>
+    </main>
+</body>
+
+</html>
